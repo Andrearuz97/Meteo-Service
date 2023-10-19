@@ -1,0 +1,12 @@
+nav {
+  width: 100%;
+}
+
+form.form-inline {
+  display: flex;
+  align-items: center;
+
+  input {
+    max-width: 200px; // Or adjust as needed
+  }
+}

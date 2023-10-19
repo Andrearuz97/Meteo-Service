@@ -11,6 +11,7 @@ import { CitySelectorComponent } from './components/city-selector/city-selector.
 import { WeatherDetailsComponent } from './components/weather-details/weather-details.component';
 import { ErrorComponent } from './components/error/error.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoadingComponent } from './components/loading/loading.component';
     CitySelectorComponent,
     WeatherDetailsComponent,
     ErrorComponent,
-    LoadingComponent
+    LoadingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
