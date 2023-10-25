@@ -1,1 +1,8 @@
-<p>weather-display works!</p>
+<div class="weather-container">
+  <h2>{{ cityName }}</h2>
+  <img [src]="weatherIconUrl" alt="Weather icon">
+  <p>{{ temperature }}°C</p>
+  <p>{{ description }}</p>
+  <!-- Altre informazioni rilevanti, come umidità, pressione, ecc. -->
+</div>
+<a [routerLink]="['/details', 'Domani']">Vedi dettagli per Domani</a>

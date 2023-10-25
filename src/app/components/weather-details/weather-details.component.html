@@ -1,1 +1,10 @@
-<p>weather-details works!</p>
+<div class="weather-details-container">
+  <h2>Dettagli per {{ cityName }}</h2>
+  <div *ngFor="let forecast of forecasts">
+      <h3>{{ forecast.date }}</h3>
+      <img [src]="forecast.iconUrl" alt="Weather icon">
+      <p>{{ forecast.temperature }}°C</p>
+      <p>{{ forecast.description }}</p>
+  </div>
+</div>
+
